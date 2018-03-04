@@ -23,9 +23,67 @@ a img {
   border: 0px;
 }
 
+#mc_embed_signup {
+  background: transparent !important;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-layout{
+  display: flex;
+  justify-content: center;
+}
+.email{
+  height: 43px;
+}
+@media (max-width: 900px) {
+  .android-be-together-section{
+    top: 0!important;
+    height: 100vh!important;
+  }
+  .content{
+    padding-top: 250px;
+  }
+}
+
+#mc_embed_signup_scroll{
+  /*display: flex!important;*/
+  /*justify-content: space-between!important;*/
+}
+
+.mc-field-group {
+  display: inline-block;
+  width: 500px !important;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  margin-top: 10px!important;
+  font-size: 16px!important;
+  background: rgba(255, 255, 255, 0.61) !important;
+  color: #e80c4d !important;
+  border-radius: .2em;
+  padding: 10px!important;
+}
+.response{
+  padding: 10px;
+  margin-top: 10px!important;
+  font-size: 16px!important;
+  background: rgba(255, 255, 255, 0.61) !important;
+  color: #00bfa5!important;
+  border-radius: .2em;
+}
 .subscribe-btn {
-  border: red;
+  display: inline-block !important;
+  border: red !important;
   background: #FF5765;
+  margin: 0 !important;
+}
+
+.subscribe-btn:hover {
+  background: #b5424d;
 }
 
 .subscribe-input {
