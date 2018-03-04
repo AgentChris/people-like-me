@@ -30,51 +30,72 @@ a img {
   margin-right: auto;
 }
 
-.form-layout{
+.form-layout {
   display: flex;
   justify-content: center;
 }
-.email{
+
+.email {
   height: 43px;
 }
+
 @media (max-width: 900px) {
-  .android-be-together-section{
-    top: 0!important;
-    height: 100vh!important;
+  .android-be-together-section {
+    top: 0 !important;
+    height: 100vh !important;
   }
-  .content{
+
+  .content {
     padding-top: 250px;
   }
 }
 
-#mc_embed_signup_scroll{
+@media (max-width: 576px) {
+  .form-layout {
+    display: inherit;
+  }
+
+  .subscribe-btn {
+    width: 90%;
+  }
+
+  .mc-field-group{
+    margin-top: 50px;
+    width: 90%!important;
+    margin-right: 0!important;
+  }
+}
+
+#mc_embed_signup_scroll {
   /*display: flex!important;*/
   /*justify-content: space-between!important;*/
 }
 
 .mc-field-group {
   display: inline-block;
-  width: 500px !important;
+  width: 500px ;
   margin-bottom: 10px;
   margin-right: 20px;
 }
 
 #mc_embed_signup div.mce_inline_error {
-  margin-top: 10px!important;
-  font-size: 16px!important;
+  margin-top: 10px !important;
+  font-size: 16px !important;
   background: rgba(255, 255, 255, 0.61) !important;
   color: #e80c4d !important;
   border-radius: .2em;
-  padding: 10px!important;
+  padding: 10px !important;
 }
-.response{
+
+.response {
   padding: 10px;
-  margin-top: 10px!important;
-  font-size: 16px!important;
+  margin-top: 10px !important;
+  font-size: 16px !important;
   background: rgba(255, 255, 255, 0.61) !important;
-  color: #00bfa5!important;
+  color: #00bfa5 !important;
   border-radius: .2em;
 }
+
 .subscribe-btn {
   display: inline-block !important;
   border: red !important;
